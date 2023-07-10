@@ -1,80 +1,89 @@
-* {
-    margin: 4px;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: rgb(231, 231, 231);
-}
-
-.container {
-    background-color: rgb(231, 231, 231);
-    min-height: 100vh;
-    border: 10px solid #1d1e4c;
-}
-
-.content {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.top_section img {
-    width: 217px;
-    height: 214px;
-    border-radius: 50%;
-    overflow: hidden;
+body{
+    height: 100%;
+    margin: 0;
+    line-height: 1.8em;
+    color: #666;
 
 }
+.pic_1{
+    background-image: url(image1.png);
+    width: 100%;
+    min-height: 820px;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+   
+   
+   
 
-.top_section {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+
+.pic_2{ 
+    background-image: url(image2.png);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
 
-.top_section h1 {
+.pic_3{
+    background-image: url(image3.png);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+}
+
+
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    letter-spacing: 8px;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+}
+
+.ptext{
+    background-color: rgb(41, 40, 40);
+    padding: 20px;
+}
+
+.section_one{
+    padding: 20px 80px;
+    color: rgb(56, 53, 53);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: rgb(104, 101, 101);
+}
+
+.section_h2{
     color: black;
-    text-align: end;
-    font-size: 50px;
-    font-weight: bold;
-
-
-}
-
-.top_section h3 {
-    font-size: 20px;
-    display: inline;
-    float: right;
-}
-
-.about_section h2 {
-    font-size: xx-large;
+    text-align: center;
     font-weight: bolder;
-    text-decoration: underline;
+    letter-spacing: 5px;
+    font-size: 30px;
 }
 
-.about_section p {
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 2px;
-    
+.section-dark, .section_h2_dark{
+    background-color: #585858;
+    color: #ccc;
 }
 
-.biography_section h4{
-    font-size: xx-large;
-    font-weight: bolder;
-    text-decoration: underline;
-}
-
-.biography_section ul{
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 2px;
-}
-
-footer{
-    margin: 50x 0;
-    text-align: end;
-    
-}
-footer p{
-    margin: 50px 0;
-    /* letter-spacing: 8px; */
+.ptextlast{
+    background-color: rgb(41, 40, 40);
+    padding: 20px;
 }
